@@ -1,0 +1,26 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Data
+# Keep the benchmark CSV, but ignore temp exports
+*.tmp.csv
+finguard_redteam_report.csv
+# If you have large datasets later, add them here
+# data/large_dataset.csv
+
+# IDE
+.vscode/
+.idea/

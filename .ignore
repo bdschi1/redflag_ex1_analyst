@@ -1,0 +1,23 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Data (Optional: Keep finance_benchmarks.csv tracked, ignore other temp csvs)
+*.tmp.csv
+*.xlsx
+
+# IDE
+.vscode/
+.idea/
