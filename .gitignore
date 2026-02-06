@@ -1,26 +1,64 @@
-# Python / Environment
+# --- Security (Critical) — NEVER commit these ---
+.env
+.env.local
+.env.*.local
+!.env.example
+secrets.toml
+secrets.yaml
+secrets.json
+*credentials*
+**/*.pem
+**/*.key
+
+# --- Claude Code ---
+.claude/
+
+# --- Python / Environment ---
 __pycache__/
 *.py[cod]
 *$py.class
-.env
 venv/
 .venv/
 env/
+build/
+dist/
+*.egg-info/
 
-# Streamlit
+# --- Streamlit ---
 .streamlit/
 
-# OS Files
+# --- OS Files ---
 .DS_Store
+.DS_Store?
+._*
 Thumbs.db
 
-# Data
+# --- Data ---
 # Keep the benchmark CSV, but ignore temp exports
 *.tmp.csv
 finguard_redteam_report.csv
-# If you have large datasets later, add them here
-# data/large_dataset.csv
 
-# IDE
+# --- Results & Outputs ---
+results/
+RESULTS/
+outputs/
+*.log
+
+# --- IDE ---
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+*.pdf
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Internal / working documents (not for public repo) ---
+brad-notes-redteam.txt
+redflag_analyst_technical_overview.md
+Fundamental.md
+fundamental.md
+b-notes.md
+TECHNICAL_DOCUMENTATION.md
