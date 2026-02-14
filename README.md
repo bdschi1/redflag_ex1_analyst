@@ -2,9 +2,9 @@
 
 [![CI](https://github.com/bdschi1/redflag_ex1_analyst/actions/workflows/ci.yml/badge.svg)](https://github.com/bdschi1/redflag_ex1_analyst/actions/workflows/ci.yml)
 
-**A domain-specific Red Teaming framework designed to probe LLMs for high-risk failures in institutional finance, regulatory compliance, and portfolio construction.**
+**Deterministic, rule-based red-teaming engine that scans analyst notes, research PDFs, and IC memos for MNPI, tipping, regulatory arbitrage, and portfolio construction traps — gating outputs as PASS, PM_REVIEW, or AUTO_REJECT in under 60 seconds.**
 
-> **Objective:** General-purpose AI safety benchmarks often miss institutional-finance nuance. FinGuard-Red provides **"Golden Data" scenarios** and a **deterministic RedFlag gate** to catch subtle but catastrophic errors—from **Regulatory Arbitrage** (MiFID II vs. SEC) to **Endogenous Risk** (crowded exits).
+> **Objective:** General-purpose AI safety benchmarks miss institutional-finance nuance. FinGuard-Red provides a **deterministic RedFlag gate** and **"Golden Data" adversarial scenarios** to catch subtle but catastrophic errors — from **Regulatory Arbitrage** (MiFID II vs. SEC) to **Endogenous Risk** (crowded exits).
 
 ---
 
